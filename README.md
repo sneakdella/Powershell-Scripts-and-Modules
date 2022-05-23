@@ -1,2 +1,2 @@
 # Powershell
-Powershell Scripts
+Powershell 7 Scripts
