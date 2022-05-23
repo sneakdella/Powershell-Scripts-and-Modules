@@ -2,7 +2,7 @@
 Author: Jacob Yuhas
 Date Written: May 23rd, 2022
 
-Import PSM Module: Import .\Parallel-Ping.psm1
+Import PSM Module: Import-Module .\Parallel-Ping.psm1
 Usage (Default): Ping-InParallel
 Usage (Custom Parameters): Ping-InParallel -IPListLocation "C:\temp\testpath.txt" -LogOutput "C:\temp\log.csv"
 
