@@ -1,11 +1,11 @@
 ######## HEADER FOR API CALLS ##############
-$Headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
-$Headers.Add("Content-Type", "application/json")
-$Headers.Add("Accept", "application/json")
-$accesstoken = ''
+$global:Headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
+$global:Headers.Add("Content-Type", "application/json")
+$global:Headers.Add("Accept", "application/json")
+$global:accesstoken = ''
 ######## END HEADER FOR API CALLS ##########
 
-$RemoteCollector = "PUTYOURREMOTECOLLECTORHERE"
+$RemoteCollector = "PUTYOURREMOTECOLLECTORIPHERE"
 $Credential = Get-Credential -Message "Please provide your vROps Credentials"
 $AuthSource = Read-Host "Enter the auth source of the account. [Enter LOCAL if it's just local]: "
 
