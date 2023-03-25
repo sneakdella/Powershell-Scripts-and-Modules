@@ -2,10 +2,10 @@
 Powershell 7 Scripts
 
 
-##1.) Ping-InParallel 
+## 1.) Ping-InParallel 
 A Powershell Module that will ping a list of IP addresses from a txt file. Default path for ip address txt file is C:\temp\ip_addresses.txt. Use parameter **-IPListLocation** to change to the path of your choice. Results will output to terminal by default. Use the second parameter **-LogOutput** to define a log output file path to export the results in CSV. 
 
-##2.) VMWare/vRealizeOperations/Get-ServicesOnVMAndMonitorThemInVROPS.ps1
+## 2.) VMWare/vRealizeOperations/Get-ServicesOnVMAndMonitorThemInVROPS.ps1
 
 This script is intended to be ran on a Virtual Machine (Windows OS only) that is currently hosted on an ESXi host. The ESXi host of said Virtual Machine must be part of a vCenter, and additionally a vRealize Operations Cloud Proxy appliance must have deployed a Telegraf agent via the Web UI to this Virtual Machine already.
 
